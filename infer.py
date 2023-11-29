@@ -81,7 +81,8 @@ def inference(model, tokenizer, clip_model, clip_processor, image=None):
 
 
 
-ckpt_path = './ckpt' 
+# ckpt_path = './ckpt' 
+ckpt_path = 'meta-llama/Llama-2-7b-chat-hf'
 clip_path = './clip' 
 image_path = 'case.png'
 
